@@ -1,0 +1,65 @@
+body {
+    background-image: linear-gradient(180deg, rgb(72,72,72), rgb(106,70,32), rgb(195,197,204), rgb(196,146,199), rgb(1,172,204), rgb(6,6,6), rgb(217,230,232), rgb(241,140,26), rgb(242,216,163), rgb(94,70,58), rgb(235,206,178));
+    background-repeat: repeat;
+    margin: 0;
+    color: aliceblue;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    padding: 0.5rem;
+    background-color: rgb(99, 96, 80);
+    text-align: center;
+    background-image: url('../images/photo.jpg');
+    background-size: cover;
+}
+
+footer {
+    background: rgba(99, 96, 80, 0.267);
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.page {
+    padding: 0.5rem;
+    background-color: rgba(99, 96, 80, 0.267);
+}
+
+img {
+    width: 50%;
+    border: 0.2rem rgb(99, 96, 80) solid;
+    border-radius: 0.5rem;
+}
+
+section {
+    padding: 0.5rem;
+    margin: auto;
+    margin-top: 0.1rem;
+    margin-bottom: 0.5rem;
+    max-width: 90%;
+    width: fit-content;
+    border: 0.2rem rgb(99, 96, 80) solid;
+    border-radius: 0.5rem;
+    background-color: rgba(99, 96, 80, 0.5);
+    text-align: center;
+}
+
+figcaption {
+    border-radius: 0.2rem;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+    padding: 0.5rem;
+    background: rgba(199, 196, 180, 0.267);
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #303030;
+    font-weight: bold;
+}
